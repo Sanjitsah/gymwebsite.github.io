@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sanju fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap" rel="stylesheet">
+<style>
+    /* css reset */
+    body{
+        margin: 0;
+        padding: 0;
+        background: url(man-2604149_1920.jpg);
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+    .left{
+        border: 2px solid rgb(23, 224, 214);
+        display: inline;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        border-radius:5%;
+
+
+    }
+    #first:hover{
+        color: red;
+        cursor: pointer;
+    }
+    .left img{
+        width: 100px;
+        height: 35px;
+        
+    }
+    .mid{
+    display: block;
+    width: 33%;
+    margin: 12px auto;
+    border: 2px solid rgb(33, 187, 207);
+    font-style: bold;
+    
+
+    }
+    .right{
+        border: 2px solid rgb(81, 153, 175);
+        display: inline;
+        position: absolute;
+        right: 34px;
+        top: 0px;
+
+
+
+    }
+    .navbar{
+        display: inline-block;
+
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 16px;
+
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 23px 15px;
+
+    }
+    .navbar li a:hover,.navbar li a:active{
+        color:red;
+        text-decoration: underline;
+        padding: 23px 15px;
+
+    }
+    .btn{
+       
+    margin: 4px 5px;
+    padding: 5px 10px;
+    border-radius: 22%;
+    cursor: pointer;
+    
+    }
+    .btn:hover{
+        color: red;
+    }
+    .container{
+        border: 2px solid rgb(207, 218, 207);
+        padding: 75px;
+        margin: 106px 80px;
+        border-radius: 28px;
+        width: 33%;
+    }
+    .form-group input{
+
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid rgb(181, 198, 202);
+    margin: 3px auto;
+    border-radius: 8px;
+    font-size: 25px;
+    }
+    .btn:hover{
+        color: red;
+        size: 80;
+    }
+</style>
+<body>
+
+<header class="header">
+    <!-- left box for logo -->
+    <div class="left">
+<img src="/images.png" alt="">
+<div  style="color: rgb(220, 223, 226);"><strong id="first">Sanju Fitness</strong></div>
+    </div>
+    <!-- mid box for navbar -->
+    <div class="mid">
+    <ul class="navbar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Fitness calulator</a></li>
+        <li><a href="#">Contact us</a></li>
+        
+    </ul>
+    </div>
+    <!-- right box for buttoms -->
+    <div class="right">
+        <button class="btn">Call us now</button><button class="btn">Email Us</button>
+    </div>
+</header>
+<div class="container">
+    <h1>Join the best gym of janakpur</h1>
+    <form action="noaction.php">
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder=" Enter your Address">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Age">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Mobile no.">
+        </div>
+        <button class="btn"><strong>Submit</strong></button>        
+
+    </form>
+</div>
+    
+</body>
+</html>
